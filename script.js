@@ -6,10 +6,10 @@
    while (num>0) {
       binary.unshift(Math.floor(num%2));
      num = Math.floor(num/2);
-     console.log(num)
+     // console.log(num)
    }
-    console.log(binary.join(''));
-    return binary;
+    // console.log();
+    return binary.join('');
   }
 
 window.decimalToBinary = decimalToBinary;
